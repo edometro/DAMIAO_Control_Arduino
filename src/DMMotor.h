@@ -144,8 +144,8 @@ public:
   // Get motor feedback mapping ranges
   void initialize() {
     getPMAX();
-    getPMAX();
-    getPMAX();
+    getVMAX();
+    getTMAX();
   }
 
   std::optional<uint32_t> readParamUint32(RID id, std::optional<uint32_t> timeout_ms = std::nullopt) {
