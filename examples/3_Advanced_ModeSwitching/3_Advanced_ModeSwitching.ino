@@ -48,8 +48,8 @@ const uint32_t CAN_RX_PIN = 1;  // GP1とGP3みたいな組み合わせでも動
 #endif
 
 //CANライブラリよりも下で呼び出す api/HardwareCAN.hが無いって言われる
-#include <DAMIAO.h>   // DAMIAOモーター制御ライブラリ
-#include <DMUtils.h>  // ユーティリティ関数置き場
+#include <DAMIAO_Control.h>  // DAMIAOモーター制御ライブラリ
+#include <DMUtils.h>         // ユーティリティ関数置き場
 
 using namespace damiao;
 
